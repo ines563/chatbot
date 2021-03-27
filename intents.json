@@ -1,0 +1,89 @@
+{"intents": [
+         {"tag": "salutation",
+         "patterns": ["demarrer","Salut","bonjour","bonsoir","start"],
+         "responses": ["Salut,comment je peux vous aider Pour suivre les opérations offer, mentionner votre besoin primaire, est ce que vous êtes en  Recherche d’emploi , ou bien Recherche d’un produit"],
+         "context": [""]
+        },
+        {"tag": "emploi",
+        "patterns": ["recherche d’emploi", "emploi", "job"],
+        "responses": ["Nous vous aiderons pour consulter des offres d’emploi disponible ,Voulez-vous voir la offres d'emploi existants ?!!!"],
+        "context": [""]
+        },
+        {"tag": "offre_emploi",
+        "patterns": ["Oui","oui comment je peux voir les offres d'emploi SVP?","ou trouve les offres"],
+        "responses": [" https://­dev.mahdi.technocity.­tn/emploi , S'il trouve une offre compatible avec vos compétences, contactez-nous"],
+        "context": [""]
+        },
+        {"tag": "postuler",
+        "patterns": ["comment postuler dans une offre","postuler","c­­omment postule"],
+        "responses": ["Bienvenue dans notre équipe, je vous aiderai à postuler pour une offre compatible avec vous, pour confirmer vos besoins, me donner le nom ou la référence de l'offre que vous avez choisie"],
+        "context": [""]
+        },
+        {"tag": "nom_offre",
+        "patterns": ["UX/­­UI","Intégrateur Web H/F","Développeur FullStack Senior","Designer Graphique"],
+        "responses": ["Oh c’est bien envoyer votre fiche sur messenger et Consultez donc votre e-mail régulièrement et laissez votre téléphone allumé."],
+        "context": [""]
+        },
+        {"tag": "date_entretien_id",
+        "patterns": ["101154","101174","­­101160"],
+        "responses": ["la date de votre entretien sera le 15/03/2021 ,Il y a un test technique avec l’entretien concernant vos connaissance,Tu es capable de réussite n'oublie pas ça :) :)","la date de votre entretien sera le 16/03/2021 ,Il y a un test technique avec l’entretien concernant vos connaissance,Tu es capable de réussite n'oublie pas ça :) :)","la date de votre entretien sera le 17/03/2021 ,Il y a un test technique avec l’entretien concernant vos connaissance,Tu es capable de réussite n'oublie pas ça :) :)"],
+        "context": [""]
+        },
+        {"tag": "resultat_entretien_­­id",
+        "patterns": ["101154" ,"101160","101174"],
+        "responses": ["Bonjour; Nous avons le plaisir de vous annoncer que vous avez accepté dans notre équipe,Consultez votre e-mail régulièrement et laissez votre téléphone allumé. Félicitations","Bonj­­our Nous vous remercions de l'intérêt que vous portez à notre équipeNous avons examiné les résultats de vos tests avec intérêt et nous avons le regret de vous informer que votre profil n’a pas été sélectionné Cependant, nous gardons votre candidature dans notre base pour de nouvelles opportunités.Nous vous souhaitons bonne continuation.","Bonj­­our ;Nous sommes en train d'examiner les résultats de vos tests"],
+        "context": [""]
+        },
+        {"tag": "produit",
+        "patterns": ["Recherche d’un produit", "produit","achete produit"],
+        "responses": ["Nous vous aiderons pour suivre la liste des produits des bonnes qualités et surtout des meilleurs et bas prix"],
+        "context": [""]
+        },
+        {"tag": "liste_produit",
+        "patterns": ["Comment trouver les produits en ventes","ou est les produits","les produits en ventes"],
+        "responses": [" https://­dev.mahdi.technocity.­tn/produit ,j'espère que trouvez vous besoin, je suis disponible à tout moment pour répondre à vos questions :)"],
+        "context": [""]
+        },
+        {"tag": "passer_commande",
+        "patterns": ["je veux passer une commande quoi faire ? ", "acheter produit","passer une commande"],
+        "responses": [" Parfait :) donnez-moi le nom de produit qui va acheter"],
+        "context": [""]
+        },
+        
+        {"tag": "nom_produit",
+        "patterns": ["Arduino Proto Shield Rev3","ARDUINO |A-000000-00645","Hy­­brid compact mixer-4×4 USB interface with FX","WH804EL1013ZKNA­­FAMZ","Enregistreur­ UNIWIEW – 16-ch – 2 SATA interface – 1U – 8 PoE – H.265&4K"],
+        "responses": ["Combien d'articles achèterez-vous"],
+        "context": [""]
+        },
+        {"tag": "quantite",
+        "patterns": ["2 article" ,"4 article","6 article","1 article"],
+        "responses": ["bien , envoyer votre nom, prénom, numéro de téléphone et votre adresse"],
+        "context": [""]
+        },
+        {"tag": "commande",
+        "patterns": ["nom prenom adresse"],
+        "responses": ["merci de vos confiances, votre demande et sera enregistré,laissez votre téléphone allumé pour recoit vos code de confirmation de commande"],
+        "context": [""]
+        },
+        {"tag": "suivi_etat_commande­­",
+        "patterns": ["est ce que la commande envoyée ou pas encore ","est ce que le commande envoyée ou non"],
+        "responses": ["on va vérifier, donne moi le code de votre commande"],
+        "context": ["etat_commande_id"]
+        },
+        {"tag": "etat_commande_id",
+        "patterns": ["104563","105566"],
+        "responses": ["Votre demande a été envoyée,vous la recevrez dans délai de 2 jours maximum","Votre demande est en cours de préparation contactez nous les jours prochaines"],
+        "context": [""]
+        },
+        {"tag": "entretien",
+        "patterns": ["comment savoir la date d’entretien","commen­­t connait la date d'entretien","le date de passer l'entretien"],
+        "responses": ["vérifier votre boite mail et envoyez vos clé de confirmation"],
+        "context": [""]
+        },
+        {"tag": "resultat",
+        "patterns": ["comment faire pour consulter le résultat d'entretien","la résultat entretien"],
+        "responses": ["Si vous avez fait l entretien, saisissez votre clé de candidature pour renvoi votre résultat"],
+        "context": [""]
+        }
+   ]
+}
